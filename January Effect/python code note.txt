@@ -1,0 +1,5 @@
+Case 1 (size1)
+This program calculates size portfolios for all CRSP securities in Python. It computes monthly value-weighted returns per each decile. Returns are weighted by the market capitalization of securities at the end of the previous month. Portfolios are created on December of the previous year. Finally, it compares the portfolio monthly returns (by decile) against CRSP decile returns.
+
+Case 2 (size2)
+This Python program calculates size portfolios for common stocks in CRSP. It computes monthly value-weighted returns per each decile and portfolios are rebalanced quarterly. Returns are weighted by the market capitalization of securities at the end of the previous month. This program uses NYSE securities to create size-decile breakpoints.
